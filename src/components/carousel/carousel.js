@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import OwlCarousel from 'react-owl-carousel';
 
 export default class carousel extends Component {
     render() {
         return (
-            <React.Fragment className="slide-one-item home-slider owl-carousel">
+            <OwlCarousel className="slide-one-item home-slider owl-carousel">
 
                 <div className="site-blocks-cover inner-page overlay hero1"  data-aos="fade" data-stellar-background-ratio="0.5">
                     <div className="container">
@@ -24,7 +25,7 @@ export default class carousel extends Component {
                         </div>
                     </div>
                 </div>
-            </React.Fragment>
+            </OwlCarousel>
         )
     }
 }

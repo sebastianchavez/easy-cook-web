@@ -11,7 +11,6 @@ function App() {
       <div className="site-wrap">
       <Navigation />
       <Carousel />
-      <div class="slant-1"></div>
 
         <Route path="/" component={Home} exact />
       </div>
