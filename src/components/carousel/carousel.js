@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import OwlCarousel from 'react-owl-carousel';
 
 export default class carousel extends Component {
+    componentDidMount(){
+        // console.log(document.getElementsByClassName('slide-one-item'))
+
+    }
+
     render() {
         return (
-            <OwlCarousel className="slide-one-item home-slider owl-carousel">
+            <div className="slide-one-item home-slider owl-carousel">
 
-                <div className="site-blocks-cover inner-page overlay hero1"  data-aos="fade" data-stellar-background-ratio="0.5">
+                <div className="site-blocks-cover inner-page overlay hero1" data-aos="fade" data-stellar-background-ratio="0.5">
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
                             <div className="col-md-6 text-center" data-aos="fade">
@@ -25,7 +29,7 @@ export default class carousel extends Component {
                         </div>
                     </div>
                 </div>
-            </OwlCarousel>
+            </div>
         )
     }
 }

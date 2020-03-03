@@ -4,11 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './loader'
+import 'popper.js'
 import './style.css'
+import 'animate.css/animate.min.css'
+// import 'animate.css'
+import 'aos/dist/aos.css'
+// import 'aos'
 import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-
+import 'owl.carousel'
+// import './main'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

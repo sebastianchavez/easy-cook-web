@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from './components/navigation/navigation';
 import Carousel from './components/carousel/carousel'
 import Home from './pages/home/home';
+// import './main'
 
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
       <div className="site-wrap">
       <Navigation />
       <Carousel />
-
         <Route path="/" component={Home} exact />
       </div>
     </Router>
